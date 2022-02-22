@@ -1,0 +1,5 @@
+.day-list {
+  display: flex;
+  -border: solid 1px red;
+  margin-top: 36px;
+}

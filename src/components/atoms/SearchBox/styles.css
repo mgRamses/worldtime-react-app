@@ -1,0 +1,38 @@
+.search-input {
+  border: none;
+  background-color: #f5f6f7;
+  padding: 8px 15px;
+  border-radius: 20px;
+  width: 250px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.card-search-results {
+  border: solid 1px gainsboro;
+  width: 300px;
+  margin-left: 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  position: absolute;
+  box-shadow: 9px 9px 8px -8px rgba(0, 0, 0, 0.3);
+}
+
+.item-search-result {
+  padding: 6px 0;
+  padding-left: 6px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.item-search-result:hover {
+  background-color: #f49c76;
+  color: #fff;
+}
+
+.search-container {
+  -position: relative;
+  z-index: 2;
+}

@@ -1,0 +1,54 @@
+.day-card {
+  padding: 5px;
+  text-align: center;
+  height: 46px;
+  width: 25px;
+  box-sizing: border-box;
+  user-select: none;
+}
+.date {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.meridiem-status {
+  font-size: 10px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+.light {
+  background-color: #f5f6f7;
+}
+
+.dark {
+  background-color: #323d48;
+  color: #fff;
+}
+.early-morning {
+  background-color: #dbedff;
+}
+
+.first-hour {
+  border-radius: 8px 0 0 8px;
+  margin-left: 2px;
+  background-color: #1f2730;
+}
+.last-hour {
+  border-radius: 0 8px 8px 0;
+  margin-right: 2px;
+}
+
+.small-month {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 9px;
+}
+
+.small-day {
+  height: 50%;
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,62 @@
+.main-timezone {
+  display: flex;
+}
+.info-timezone {
+  display: flex;
+  width: 340px;
+  height: 46px;
+  justify-content: space-between;
+  padding-right: 18px;
+  -border: solid 1px red;
+  margin-top: 36px;
+}
+
+.item-timezone {
+  display: flex;
+}
+
+.right {
+  -border: solid 1px orange;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  -border: solid 1px red;
+}
+
+.city-info {
+  padding: 0 6px;
+  color: #353f4b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.city-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.home-button {
+  background: #f5f6f7;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.delete-button {
+  cursor: pointer;
+  margin-right: 15px;
+}
+.country-name {
+  font-size: 14px;
+}
